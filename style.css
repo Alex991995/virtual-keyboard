@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 700px;
+  margin: 5rem auto;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+}
+.keyboard{
+  border: 1px solid slategray;
+  padding: 5px;
+}
+/* .textarea {
+  
+} */
+.row{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+.button{
+  border: 1px solid slategray;
+  background-color: rgb(28,35,46);
+  color: azure;
+  padding: 11px 14px;
+  position: relative;
+}
+.sup{
+  position: absolute;
+  left: 5px;
+  top: 4px;
+  font-size: 11px;
+}
